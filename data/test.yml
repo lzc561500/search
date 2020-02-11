@@ -1,0 +1,7 @@
+test_login:
+    -
+      - "zhangsan"
+      - "123456"
+    -
+      - "wangwu"
+      - "456789"
