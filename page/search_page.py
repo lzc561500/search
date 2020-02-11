@@ -3,7 +3,7 @@ from base.base_xpath import Xpath
 
 class Search(Fuction):
     loc1=("id","com.android.settings:id/search")
-    loc2=("xpath","//*[contains(@text,'Search')]")
+    loc2=("xpath","//*[contains(@text,'搜索…')]")
     loc3=("class name","android.widget.ImageButton")
 
     def searchPage(self,text):
